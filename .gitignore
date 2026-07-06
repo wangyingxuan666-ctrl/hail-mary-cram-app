@@ -1,0 +1,29 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+dist/
+
+# Data (runtime)
+backend/data/vectors/
+backend/data/sessions/
+backend/data/uploads/
+backend/data/exports/
+backend/data/*.json
+!backend/data/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
